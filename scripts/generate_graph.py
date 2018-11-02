@@ -71,6 +71,9 @@ def compare_to_base(logfile, metric):
         res.append("\tDelta: {:.1f}{} ({:.1f}%)\n".format(change, get_unit(metric), (change / base_metric) * 100))
 
     print('\n'.join(res))
+    with open('../result/compare/{}.txt'.format(date(logfile)), 'x') as f:
+        f.write('\n'.join(res))
+
     return '\n'.join(res)
 
 
@@ -99,6 +102,7 @@ def graph_metric(file_list, use_metric):
         axe.annotate('Delta: {:.1f}%'.format(delta), (dates[-2], values[test_type][-2]))
         plt.ylabel('{} ({})'.format(use_metric, get_unit(use_metric)))
         plt.legend()
+        plt.savefig('../result/{}.png'.format(test_type))
         plt.show()
 
 
