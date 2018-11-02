@@ -103,7 +103,7 @@ def graph_metric(file_list, use_metric):
         plt.ylabel('{} ({})'.format(use_metric, get_unit(use_metric)))
         plt.legend()
         plt.savefig('../result/{}.png'.format(test_type.replace(' ', '-')))
-        plt.show()
+        # plt.show()
 
 
 if __name__ == "__main__":
