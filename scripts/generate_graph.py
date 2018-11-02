@@ -104,8 +104,7 @@ def graph_metric(file_list, use_metric):
         plt.legend()
         plt.savefig('../result/{}.png'.format(test_type.replace(' ', '-')))
         # plt.show()
-    
-    print(dates)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
