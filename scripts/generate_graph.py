@@ -102,7 +102,7 @@ def graph_metric(file_list, use_metric):
         axe.annotate('Delta: {:.1f}%'.format(delta), (dates[-2], values[test_type][-2]))
         plt.ylabel('{} ({})'.format(use_metric, get_unit(use_metric)))
         plt.legend()
-        plt.savefig('../result/{}.png'.format(test_type))
+        plt.savefig('../result/{}.png'.format(test_type.replace(' ', '-')))
         plt.show()
 
 
