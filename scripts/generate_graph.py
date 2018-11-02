@@ -71,7 +71,7 @@ def compare_to_base(logfile, metric):
         res.append("\tDelta: {:.1f}{} ({:.1f}%)\n".format(change, get_unit(metric), (change / base_metric) * 100))
 
     print('\n'.join(res))
-    with open('../result/compare/{}.txt'.format(date(logfile)), 'x') as f:
+    with open('../result/compare/{}.txt'.format(date(logfile)), 'w') as f:
         f.write('\n'.join(res))
 
     return '\n'.join(res)
@@ -119,7 +119,8 @@ if __name__ == "__main__":
 
     files = os.listdir("../logs/")
     files.sort()
-    files.remove(BASE)
+    # remove logs before base
+    files = files[files.index(BASE)+1:]
     files.remove('error')
 
     # latest log file
