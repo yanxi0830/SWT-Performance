@@ -1,0 +1,91 @@
+.Scenario 'org.eclipse.swt.test.Create composites' (average over 100 samples):
+  System Time:             721ms        (95% in [703ms, 738ms])        Measurable effect: 34ms (0.4 SDs)
+  Used Java Heap:      -382.24K         (95% in [-3M, 2.25M])          Measurable effect: 5.29M (0.4 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Working Set:           17.98M         (95% in [15.89M, 20.08M])      Measurable effect: 4.22M (0.4 SDs) (required sample size for an effect of 5% of mean: 2201)
+  Kernel time:               9ms        (95% in [7ms, 10ms])           Measurable effect: 2ms (0.4 SDs) (required sample size for an effect of 5% of mean: 3465)
+  CPU Time:                722ms        (95% in [705ms, 739ms])        Measurable effect: 33ms (0.4 SDs)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:       5.45K         (95% in [4.37K, 6.53K])        Measurable effect: 2.17K (0.4 SDs) (required sample size for an effect of 5% of mean: 6352)
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:          17.75M         (95% in [15.66M, 19.83M])      Measurable effect: 4.21M (0.4 SDs) (required sample size for an effect of 5% of mean: 2248)
+
+.Scenario 'org.eclipse.swt.test.Create composites and widgets' (average over 10 samples):
+  System Time:             3.9s         (95% in [3.55s, 4.26s])        Measurable effect: 629ms (1.3 SDs) (required sample size for an effect of 5% of mean: 104)
+  Used Java Heap:        -3.24M         (95% in [-20.33M, 13.86M])     Measurable effect: 30.22M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Working Set:           58.69M         (95% in [12M, 105.39M])        Measurable effect: 82.56M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Kernel time:              36ms        (95% in [5ms, 66ms])           Measurable effect: 53ms (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  CPU Time:               4.01s         (95% in [3.6s, 4.42s])         Measurable effect: 717ms (1.3 SDs) (required sample size for an effect of 5% of mean: 129)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:      19.53K         (95% in [2.17K, 36.9K])        Measurable effect: 30.71K (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:          56.89M         (95% in [13.13M, 100.64M])     Measurable effect: 77.36M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+
+.Scenario 'org.eclipse.swt.test.Draw on an image' (average over 10 samples):
+  System Time:            1.19s         (95% in [1.18s, 1.2s])         Measurable effect: 18ms (1.3 SDs)
+  Used Java Heap:       789.95K         (95% in [194.27K, 1.35M])      Measurable effect: 1.03M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Working Set:               0          (95% in [0, 0])               
+  Kernel time:               1ms        (95% in [-1ms, 3ms])           Measurable effect: 4ms (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  CPU Time:                1.2s         (95% in [1.17s, 1.22s])        Measurable effect: 51ms (1.3 SDs)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:          3          (95% in [-4, 11])              Measurable effect: 13 (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:              0          (95% in [0, 0])               
+
+.Scenario 'org.eclipse.swt.test.Draw on a window' (average over 10 samples):
+  System Time:              11ms        (95% in [9ms, 13ms])           Measurable effect: 3ms (1.3 SDs) (required sample size for an effect of 5% of mean: 421)
+  Used Java Heap:       473.97K         (95% in [-71.98K, 1,019.92K])  Measurable effect: 965.34K (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Working Set:               0          (95% in [0, 0])               
+  Kernel time:               0ms        (95% in [0ms, 0ms])           
+  CPU Time:                 14ms        (95% in [4ms, 23ms])           Measurable effect: 16ms (1.3 SDs) (required sample size for an effect of 5% of mean: 5225)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:          0          (95% in [0, 0])               
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:              0          (95% in [0, 0])               
+
+.Scenario 'org.eclipse.swt.test.Draw strings using GC.drawText' (average over 10 samples):
+  System Time:            2.33s         (95% in [2.31s, 2.34s])        Measurable effect: 22ms (1.3 SDs)
+  Used Java Heap:         3.55M         (95% in [3.02M, 4.08M])        Measurable effect: 965.33K (1.3 SDs) (required sample size for an effect of 5% of mean: 283)
+  Working Set:            24.8K         (95% in [-12.82K, 62.42K])     Measurable effect: 66.52K (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+  Kernel time:               0ms        (95% in [0ms, 0ms])           
+  CPU Time:               2.34s         (95% in [2.3s, 2.38s])         Measurable effect: 71ms (1.3 SDs)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:          6          (95% in [-4, 16])              Measurable effect: 18 (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:           19.2K         (95% in [-11.7K, 50.1K])       Measurable effect: 54.64K (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+
+.Scenario 'org.eclipse.swt.test.Draw strings using GC.drawString()' (average over 10 samples):
+  System Time:              62ms        (95% in [60ms, 64ms])          Measurable effect: 3ms (1.3 SDs) (required sample size for an effect of 5% of mean: 16)
+  Used Java Heap:            0          (95% in [0, 0])               
+  Working Set:               0          (95% in [0, 0])               
+  Kernel time:               0ms        (95% in [0ms, 0ms])           
+  CPU Time:                 62ms        (95% in [57ms, 66ms])          Measurable effect: 8ms (1.3 SDs) (required sample size for an effect of 5% of mean: 67)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:          0          (95% in [0, 0])               
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:              0          (95% in [0, 0])               
+
+.Scenario 'org.eclipse.swt.test.Layout Composites' (average over 10 samples):
+  System Time:              49ms        (95% in [44ms, 55ms])          Measurable effect: 9ms (1.3 SDs) (required sample size for an effect of 5% of mean: 144)
+  Used Java Heap:       789.94K         (95% in [194.27K, 1.35M])      Measurable effect: 1.03M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+  Working Set:           313.6K         (95% in [-395.83K, 1,023.03K]) Measurable effect: 1.22M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+  Kernel time:               0ms        (95% in [0ms, 0ms])           
+  CPU Time:                 72ms        (95% in [52ms, 91ms])          Measurable effect: 34ms (1.3 SDs) (required sample size for an effect of 5% of mean: 900)
+  Hard Page Faults:          0          (95% in [0, 0])               
+  Soft Page Faults:         80          (95% in [-99, 261])            Measurable effect: 319 (1.3 SDs) (required sample size for an effect of 5% of stdev: 6400)
+  Text Size:                 0          (95% in [0, 0])               
+  Data Size:                 0          (95% in [0, 0])               
+  Library Size:          329.2K         (95% in [-415.52K, 1.05M])     Measurable effect: 1.29M (1.3 SDs) (required sample size for an effect of 5% of stdev: 6401)
+
+
+Time: 420.791
+
+OK (7 tests)
+
+no new datapoints in DB
+disconnecting from DB
