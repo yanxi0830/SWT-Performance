@@ -1,0 +1,34 @@
+Create composites
+	2018_09_06: 726.00ms
+	2018_12_07: 720.00ms
+	Delta: 6.0ms (0.8%)
+
+Create composites and widgets
+	2018_09_06: 4150.00ms
+	2018_12_07: 4040.00ms
+	Delta: 110.0ms (2.7%)
+
+Draw on an image
+	2018_09_06: 1200.00ms
+	2018_12_07: 1200.00ms
+	Delta: 0.0ms (0.0%)
+
+Draw on a window
+	2018_09_06: 745.00ms
+	2018_12_07: 15.00ms
+	Delta: 730.0ms (98.0%)
+
+Draw strings using GC.drawText
+	2018_09_06: 2730.00ms
+	2018_12_07: 2360.00ms
+	Delta: 370.0ms (13.6%)
+
+Draw strings using GC.drawString()
+	2018_09_06: 131.00ms
+	2018_12_07: 61.00ms
+	Delta: 70.0ms (53.4%)
+
+Layout Composites
+	2018_09_06: 71.00ms
+	2018_12_07: 75.00ms
+	Delta: -4.0ms (-5.6%)
